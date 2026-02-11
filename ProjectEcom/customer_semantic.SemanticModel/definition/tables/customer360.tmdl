@@ -1,0 +1,223 @@
+table customer360
+	lineageTag: 54a484f2-3a2d-4ac8-aba8-a4dfecacc401
+	sourceLineageTag: [Gold].[customer360]
+
+	column customer_id
+		dataType: int64
+		formatString: 0
+		sourceProviderType: int
+		lineageTag: 55613942-4087-4524-8698-1b15c1f6f567
+		sourceLineageTag: customer_id
+		summarizeBy: sum
+		sourceColumn: customer_id
+
+		annotation SummarizationSetBy = Automatic
+
+	column name
+		dataType: string
+		sourceProviderType: varchar(8000)
+		lineageTag: 6b9ca912-81c1-4bf8-adc1-9b771b4e3cda
+		sourceLineageTag: name
+		summarizeBy: none
+		sourceColumn: name
+
+		annotation SummarizationSetBy = Automatic
+
+	column email
+		dataType: string
+		sourceProviderType: varchar(8000)
+		lineageTag: d2b241cb-d77c-4827-84a9-cff8b8bf4099
+		sourceLineageTag: email
+		summarizeBy: none
+		sourceColumn: email
+
+		annotation SummarizationSetBy = Automatic
+
+	column gender
+		dataType: string
+		sourceProviderType: varchar(8000)
+		lineageTag: ef3a8618-b449-4a75-9a54-0c0d629daddb
+		sourceLineageTag: gender
+		summarizeBy: none
+		sourceColumn: gender
+
+		annotation SummarizationSetBy = Automatic
+
+	column dob
+		dataType: dateTime
+		formatString: General Date
+		sourceProviderType: date
+		lineageTag: 65bf439a-e817-4185-82bc-88bbdf8205fc
+		sourceLineageTag: dob
+		summarizeBy: none
+		sourceColumn: dob
+
+		annotation SummarizationSetBy = Automatic
+
+	column location
+		dataType: string
+		sourceProviderType: varchar(8000)
+		lineageTag: 53579dc6-263c-4e8c-b1c5-4546c37ed97c
+		sourceLineageTag: location
+		summarizeBy: none
+		sourceColumn: location
+
+		annotation SummarizationSetBy = Automatic
+
+	column order_id
+		dataType: int64
+		formatString: 0
+		sourceProviderType: int
+		lineageTag: 7c38b613-403f-4090-9fb2-306b4532a94e
+		sourceLineageTag: order_id
+		summarizeBy: sum
+		sourceColumn: order_id
+
+		annotation SummarizationSetBy = Automatic
+
+	column order_date
+		dataType: dateTime
+		formatString: General Date
+		sourceProviderType: date
+		lineageTag: f43c4018-b1b4-4e74-8091-bebcaf2e3bb3
+		sourceLineageTag: order_date
+		summarizeBy: none
+		sourceColumn: order_date
+
+		annotation SummarizationSetBy = Automatic
+
+	column order_amount
+		dataType: double
+		sourceProviderType: float
+		lineageTag: cb3ccbea-d89b-4491-9bbf-fc1825d950b5
+		sourceLineageTag: order_amount
+		summarizeBy: sum
+		sourceColumn: order_amount
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column status
+		dataType: string
+		sourceProviderType: varchar(8000)
+		lineageTag: ed169047-256a-498d-bde3-10fe9419e200
+		sourceLineageTag: status
+		summarizeBy: none
+		sourceColumn: status
+
+		annotation SummarizationSetBy = Automatic
+
+	column payment_method
+		dataType: string
+		sourceProviderType: varchar(8000)
+		lineageTag: 5366b598-547c-4fc9-8404-d7a2002206df
+		sourceLineageTag: payment_method
+		summarizeBy: none
+		sourceColumn: payment_method
+
+		annotation SummarizationSetBy = Automatic
+
+	column payment_status
+		dataType: string
+		sourceProviderType: varchar(8000)
+		lineageTag: bcdffa63-c6b8-41f5-b5ef-fe6d98b353d8
+		sourceLineageTag: payment_status
+		summarizeBy: none
+		sourceColumn: payment_status
+
+		annotation SummarizationSetBy = Automatic
+
+	column payment_amount
+		dataType: double
+		sourceProviderType: float
+		lineageTag: 26f6c05b-9e87-4a21-af80-f0d8bec433a6
+		sourceLineageTag: payment_amount
+		summarizeBy: sum
+		sourceColumn: payment_amount
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column ticket_id
+		dataType: string
+		sourceProviderType: varchar(8000)
+		lineageTag: a06fc03e-1981-405e-bb0d-8c392bbfe995
+		sourceLineageTag: ticket_id
+		summarizeBy: none
+		sourceColumn: ticket_id
+
+		annotation SummarizationSetBy = Automatic
+
+	column issue_type
+		dataType: string
+		sourceProviderType: varchar(8000)
+		lineageTag: 164c33fa-db1c-4a0e-aaed-24318cb122db
+		sourceLineageTag: issue_type
+		summarizeBy: none
+		sourceColumn: issue_type
+
+		annotation SummarizationSetBy = Automatic
+
+	column ticket_date
+		dataType: dateTime
+		formatString: General Date
+		sourceProviderType: date
+		lineageTag: 770e06a6-f08a-433f-aba1-89a44e02e0ae
+		sourceLineageTag: ticket_date
+		summarizeBy: none
+		sourceColumn: ticket_date
+
+		annotation SummarizationSetBy = Automatic
+
+	column resolution_status
+		dataType: string
+		sourceProviderType: varchar(8000)
+		lineageTag: 71ef5fdd-ae3d-4f0d-992b-d69003b57de2
+		sourceLineageTag: resolution_status
+		summarizeBy: none
+		sourceColumn: resolution_status
+
+		annotation SummarizationSetBy = Automatic
+
+	column page_viewed
+		dataType: string
+		sourceProviderType: varchar(8000)
+		lineageTag: 2420310c-5482-4296-808b-c41eb476097c
+		sourceLineageTag: page_viewed
+		summarizeBy: none
+		sourceColumn: page_viewed
+
+		annotation SummarizationSetBy = Automatic
+
+	column device_type
+		dataType: string
+		sourceProviderType: varchar(8000)
+		lineageTag: 71fb5c23-9654-4d9c-8ede-12e20de2dd20
+		sourceLineageTag: device_type
+		summarizeBy: none
+		sourceColumn: device_type
+
+		annotation SummarizationSetBy = Automatic
+
+	column session_time
+		dataType: dateTime
+		formatString: General Date
+		sourceProviderType: date
+		lineageTag: 4e80ae76-1f32-4294-99a6-4938ee2a766f
+		sourceLineageTag: session_time
+		summarizeBy: none
+		sourceColumn: session_time
+
+		annotation SummarizationSetBy = Automatic
+
+	partition customer360 = entity
+		mode: directLake
+		source
+			entityName: customer360
+			schemaName: Gold
+			expressionSource: DatabaseQuery
+
+	annotation PBI_ResultType = Table
+
